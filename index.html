@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Financial Planning : Debt Foreclosure — Robinsh Kumar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header-content">
+        <h1>Financial Planning : Debt Foreclosure</h1>
+        <p class="subtitle">Robinsh Kumar · All EMIs paid through April 2026</p>
+      </div>
+      <div class="header-actions">
+        <a href="income-plan.html" class="nav-link">💰 Income Plan →</a>
+        <div class="header-badge">
+          <div class="label">Generated on</div>
+          <div class="date">7 April 2026</div>
+        </div>
+      </div>
+    </header>
+
+    <div class="header-divider"></div>
+
+    <!-- PORTFOLIO OVERVIEW -->
+    <section class="section">
+      <details class="collapsible" open>
+        <summary class="section-title">Portfolio Overview</summary>
+        <div class="stats-grid">
+        <div class="stat-card primary">
+          <div class="label">Total Borrowed</div>
+          <div class="value">₹10,65,000</div>
+          <div class="meta">Across 5 active loans</div>
+        </div>
+        <div class="stat-card danger">
+          <div class="label">Principal Outstanding</div>
+          <div class="value">₹6,98,036</div>
+          <div class="meta">65.5% of original portfolio</div>
+        </div>
+        <div class="stat-card success">
+          <div class="label">Principal Paid</div>
+          <div class="value">₹3,66,964</div>
+          <div class="meta">34.5% portfolio cleared</div>
+        </div>
+        <div class="stat-card warning">
+          <div class="label">Monthly EMI Outflow</div>
+          <div class="value">₹28,345</div>
+          <div class="meta">Across all 5 loans</div>
+        </div>
+        <div class="stat-card danger">
+          <div class="label">Total Interest (Lifetime)</div>
+          <div class="value">₹2,76,506</div>
+          <div class="meta">Without foreclosure</div>
+        </div>
+        <div class="stat-card success">
+          <div class="label">Net Interest Saved</div>
+          <div class="value">₹62,109</div>
+          <div class="meta">Via foreclosure plan</div>
+        </div>
+      </div>
+      </details>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- LOAN PORTFOLIO TABLE -->
+    <section class="section">
+      <details class="collapsible" open>
+        <summary class="section-title">All Loans — Current Status (Post April 2026 EMI)</summary>
+        <div class="table-container">
+        <div class="table-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>Loan</th>
+                <th>Amount</th>
+                <th>O/S Principal</th>
+                <th>Monthly EMI</th>
+                <th>EMIs Left</th>
+                <th>Rate</th>
+                <th>Principal Paid</th>
+                <th>Interest Paid</th>
+                <th>Total Paid</th>
+                <th>Total EMIs</th>
+                <th>Total Interest</th>
+                <th>Closure Date</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="loan-info">
+                    <span class="bank-tag hdfc">HDFC</span>
+                    <span class="loan-name">Jumbo Loan</span>
+                    <span class="loan-id">...29249405 · EMIs paid: 8</span>
+                    <div class="progress-circle progress-low" style="--progress: 16.7%">
+                      <span class="progress-value">16.7%</span>
+                    </div>
+                  </div>
+                </td>
+                <td>₹5,95,000</td>
+                <td class="highlight">₹5,13,425</td>
+                <td>₹15,459</td>
+                <td>40</td>
+                <td class="rate-low">11.28%</td>
+                <td>₹81,575</td>
+                <td>₹43,029</td>
+                <td>₹1,24,604</td>
+                <td>48</td>
+                <td class="rate-high">₹1,47,970</td>
+                <td>23 Aug 2029</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="loan-info">
+                    <span class="bank-tag hdfc">HDFC</span>
+                    <span class="loan-name">Personal Loan ₹60K</span>
+                    <span class="loan-id">Agmt. 154351967 · EMIs paid: 20</span>
+                    <div class="progress-circle progress-mid" style="--progress: 41.7%">
+                      <span class="progress-value">41.7%</span>
+                    </div>
+                  </div>
+                </td>
+                <td>₹60,000</td>
+                <td class="highlight">₹38,488</td>
+                <td>₹1,587</td>
+                <td>28</td>
+                <td class="rate-mid">12.25%</td>
+                <td>₹21,512</td>
+                <td>₹10,228</td>
+                <td>₹31,740</td>
+                <td>48</td>
+                <td class="rate-high">₹16,176</td>
+                <td>07 Aug 2028</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="loan-info">
+                    <span class="bank-tag hdfc">HDFC</span>
+                    <span class="loan-name">Personal Loan ₹50K</span>
+                    <span class="loan-id">Agmt. 147390758 · EMIs paid: 28</span>
+                    <div class="progress-circle progress-high" style="--progress: 77.8%">
+                      <span class="progress-value">77.8%</span>
+                    </div>
+                  </div>
+                </td>
+                <td>₹50,000</td>
+                <td class="highlight">₹12,709</td>
+                <td>₹1,661</td>
+                <td>8</td>
+                <td class="rate-mid">12.00%</td>
+                <td>₹37,291</td>
+                <td>₹9,217</td>
+                <td>₹46,508</td>
+                <td>36</td>
+                <td class="rate-mid">₹9,796</td>
+                <td>07 Dec 2026</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="loan-info">
+                    <span class="bank-tag icici">ICICI</span>
+                    <span class="loan-name">Personal Loan ₹3L</span>
+                    <span class="loan-id">LPGAY00047818403 · EMIs paid: 35</span>
+                    <div class="progress-circle progress-high" style="--progress: 72.9%">
+                      <span class="progress-value">72.9%</span>
+                    </div>
+                  </div>
+                </td>
+                <td>₹3,00,000</td>
+                <td class="highlight">₹96,484</td>
+                <td>₹7,964</td>
+                <td>13</td>
+                <td class="rate-mid">12.25%</td>
+                <td>₹2,03,516</td>
+                <td>₹75,224</td>
+                <td>₹2,78,740</td>
+                <td>48</td>
+                <td class="rate-high">₹82,258</td>
+                <td>05 May 2027</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="loan-info">
+                    <span class="bank-tag icici">ICICI</span>
+                    <span class="loan-name">Personal Loan ₹60K</span>
+                    <span class="loan-id">LPBNG00049909955 · EMIs paid: 22</span>
+                    <div class="progress-circle progress-mid" style="--progress: 45.8%">
+                      <span class="progress-value">45.8%</span>
+                    </div>
+                  </div>
+                </td>
+                <td>₹60,000</td>
+                <td class="highlight">₹36,930</td>
+                <td>₹1,674</td>
+                <td>26</td>
+                <td class="rate-high">15.00%</td>
+                <td>₹23,070</td>
+                <td>₹13,758</td>
+                <td>₹36,828</td>
+                <td>48</td>
+                <td class="rate-high">₹20,306</td>
+                <td>05 Jun 2028</td>
+              </tr>
+              <tr class="tr-total">
+                <td><strong>Total Portfolio</strong></td>
+                <td>₹10,65,000</td>
+                <td>₹6,98,036</td>
+                <td>₹28,345</td>
+                <td>—</td>
+                <td>—</td>
+                <td>₹3,66,964</td>
+                <td>₹1,51,456</td>
+                <td>₹5,18,420</td>
+                <td>—</td>
+                <td class="rate-high">₹2,76,506</td>
+                <td>—</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="note">
+        Progress % = EMIs paid ÷ Total EMIs. Rate color: <span class="rate-low">green</span> = below 12%, <span class="rate-mid">amber</span> = 12–14%, <span class="rate-high">red</span> = 15%+. All figures as of 7 April 2026.
+      </div>
+      </details>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- FORECLOSURE PLAN -->
+    <section class="section">
+      <details class="collapsible" open>
+        <summary class="section-title">Foreclosure Strategy — Optimized for Maximum Interest Saving</summary>
+
+        <div class="alert">
+        <strong>Do not foreclose HDFC PL ₹50K.</strong> Only 8 EMIs remain (₹163 interest left). HDFC's penalty (~₹292 on ₹6,481 O/S) exceeds the interest you'd save. Last EMI is 7 Dec 2026 — let it close naturally.
+      </div>
+
+      <div class="timeline">
+
+        <!-- PHASE 1 -->
+        <div class="timeline-card">
+          <div class="timeline-header">
+            <div class="step-badge hold">1</div>
+            <div>
+              <div class="timeline-title">May – Jul 2026 <span class="tag hold">Build savings</span></div>
+              <div class="timeline-subtitle">No foreclosure action. Regular EMIs continue on all 5 loans. Accumulate ₹90,000 by 30 July.</div>
+            </div>
+            <div class="timeline-saving muted"><svg class="bank-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M4 10h3v7H4zm6.5 0h3v7h-3zM2 19h20v3H2zm15-9h3v7h-3zm-5-9L2 6v2h20V6z"/></svg>₹90,000</div>
+          </div>
+        </div>
+
+        <div class="connector"></div>
+
+        <!-- PHASE 2 -->
+        <div class="timeline-card">
+          <div class="timeline-header">
+            <div class="step-badge active">2</div>
+            <div>
+              <div class="timeline-title">5 Aug & 7 Aug 2026 <span class="tag closed">2 loans closed</span></div>
+              <div class="timeline-subtitle">Pay Aug EMIs first. Then foreclose. Total outflow: ₹67,499. ICICI first (zero penalty), then HDFC PL 60K.</div>
+            </div>
+            <div class="timeline-saving">Saves ₹7,372</div>
+          </div>
+          <div class="timeline-body">
+            <div class="loan-detail-card">
+              <div class="title"><span class="bank-tag icici">ICICI</span> Personal Loan ₹60K · <span class="rate-high">15.00%</span></div>
+              <div class="row"><span>Action date</span><span>5 Aug 2026 (after EMI)</span></div>
+              <div class="row"><span>O/S after Aug EMI (Instl 26)</span><span>₹31,989</span></div>
+              <div class="row"><span>Foreclosure penalty</span><span class="val-zero">₹0 (nil)</span></div>
+              <div class="row"><span>Total FC amount</span><span>₹31,989</span></div>
+              <div class="row"><span>Interest avoided (22 EMIs)</span><span class="val-save">₹4,793</span></div>
+            </div>
+            <div class="loan-detail-card">
+              <div class="title"><span class="bank-tag hdfc">HDFC</span> Personal Loan ₹60K · <span class="rate-mid">12.25%</span></div>
+              <div class="row"><span>Action date</span><span>7 Aug 2026 (after EMI)</span></div>
+              <div class="row"><span>O/S after Aug EMI (Instl 24)</span><span>₹33,636</span></div>
+              <div class="row"><span>Penalty (4.72% + 18% GST)</span><span class="val-penalty">₹1,873</span></div>
+              <div class="row"><span>Total FC amount</span><span>₹35,509</span></div>
+              <div class="row"><span>Gross interest avoided (24 EMIs)</span><span>₹4,452</span></div>
+              <div class="row"><span>Net saving after penalty</span><span class="val-save">₹2,579</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="connector"></div>
+
+        <!-- PHASE 3 -->
+        <div class="timeline-card">
+          <div class="timeline-header">
+            <div class="step-badge active">3</div>
+            <div>
+              <div class="timeline-title">5 Sep 2026 <span class="tag closed">1 loan closed</span></div>
+              <div class="timeline-subtitle">Pay Sep EMI (Instl 40) first. Immediately foreclose. Zero penalty — full saving. Outflow: ₹60,870.</div>
+            </div>
+            <div class="timeline-saving">Saves ₹2,828</div>
+          </div>
+          <div class="timeline-body">
+            <div class="loan-detail-card">
+              <div class="title"><span class="bank-tag icici">ICICI</span> Personal Loan ₹3L · <span class="rate-mid">12.25%</span></div>
+              <div class="row"><span>Action date</span><span>5 Sep 2026 (after EMI)</span></div>
+              <div class="row"><span>O/S after Sep EMI (Instl 40)</span><span>₹60,870</span></div>
+              <div class="row"><span>Foreclosure penalty</span><span class="val-zero">₹0 (nil)</span></div>
+              <div class="row"><span>Total FC amount</span><span>₹60,870</span></div>
+              <div class="row"><span>Interest avoided (8 EMIs left)</span><span class="val-save">₹2,828</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="connector"></div>
+
+        <!-- PHASE 4 -->
+        <div class="timeline-card">
+          <div class="timeline-header">
+            <div class="step-badge hold">4</div>
+            <div>
+              <div class="timeline-title">Oct – Dec 2026 <span class="tag hold">Accumulate</span></div>
+              <div class="timeline-subtitle">₹11,225/month freed from 3 closed loans flows into war chest. HDFC PL ₹50K closes naturally on 7 Dec 2026.</div>
+            </div>
+            <div class="timeline-saving muted"><svg class="bank-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M4 10h3v7H4zm6.5 0h3v7h-3zM2 19h20v3H2zm15-9h3v7h-3zm-5-9L2 6v2h20V6z"/></svg>₹4,98,567</div>
+          </div>
+        </div>
+
+        <div class="connector"></div>
+
+        <!-- PHASE 5 -->
+        <div class="timeline-card">
+          <div class="timeline-header">
+            <div class="step-badge final">5</div>
+            <div>
+              <div class="timeline-title">5 Jan 2027 <span class="tag closed">Final closure — Debt Free</span></div>
+              <div class="timeline-subtitle">Foreclose before 23 Jan EMI. War chest covers full amount. ₹68,669 remains as buffer post-closure.</div>
+            </div>
+            <div class="timeline-saving">Saves ₹51,910</div>
+          </div>
+          <div class="timeline-body">
+            <div class="loan-detail-card">
+              <div class="title"><span class="bank-tag hdfc">HDFC</span> Jumbo Loan ₹5.95L · <span class="rate-low">11.28%</span></div>
+              <div class="row"><span>Action date</span><span>5 Jan 2027 (before 23 Jan EMI)</span></div>
+              <div class="row"><span>O/S after Dec EMI (Instl 16)</span><span>₹4,25,511</span></div>
+              <div class="row"><span>Penalty (3.44% base + 18% GST)</span><span class="val-penalty">₹17,273</span></div>
+              <div class="row"><span>Total FC amount</span><span>₹4,42,784</span></div>
+              <div class="row"><span>Gross interest avoided (32 EMIs)</span><span>₹69,183</span></div>
+              <div class="row"><span>Net saving after penalty</span><span class="val-save">₹51,910</span></div>
+              <div class="row"><span><svg class="bank-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M4 10h3v7H4zm6.5 0h3v7h-3zM2 19h20v3H2zm15-9h3v7h-3zm-5-9L2 6v2h20V6z"/></svg>Remaining after FC</span><span class="val-save">₹68,669</span></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </details>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- MONTHLY CASH FLOW -->
+    <section class="section">
+      <details class="collapsible" open>
+        <summary class="section-title">Monthly Cash Flow (Aug 2026 → Jan 2027)</summary>
+        <div class="cf-grid">
+        <div class="cf-header">
+          <div>Event</div>
+          <div>Date</div>
+          <div>Inflow</div>
+          <div>Outflow (FC)</div>
+          <div><svg class="bank-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M4 10h3v7H4zm6.5 0h3v7h-3zM2 19h20v3H2zm15-9h3v7h-3zm-5-9L2 6v2h20V6z"/></svg>Balance</div>
+        </div>
+
+        <div class="cf-row savings">
+          <div>July savings arrive</div>
+          <div class="cf-muted">30 Jul 2026</div>
+          <div class="cf-inflow">+₹90,000</div>
+          <div class="cf-muted">—</div>
+          <div class="cf-balance">₹90,000</div>
+        </div>
+
+        <div class="cf-row action">
+          <div>Foreclose ICICI PL ₹60K</div>
+          <div class="cf-muted">5 Aug 2026</div>
+          <div class="cf-muted">—</div>
+          <div class="cf-outflow">−₹31,989</div>
+          <div class="cf-balance">₹58,011</div>
+        </div>
+
+        <div class="cf-row action">
+          <div>Foreclose HDFC PL ₹60K</div>
+          <div class="cf-muted">7 Aug 2026</div>
+          <div class="cf-muted">—</div>
+          <div class="cf-outflow">−₹35,509</div>
+          <div class="cf-balance">₹22,502</div>
+        </div>
+
+        <div class="cf-row savings">
+          <div>August savings arrive</div>
+          <div class="cf-muted">30 Aug 2026</div>
+          <div class="cf-inflow">+₹1,00,000</div>
+          <div class="cf-muted">—</div>
+          <div class="cf-balance">₹1,22,502</div>
+        </div>
+
+        <div class="cf-row">
+          <div>Freed EMIs (ICICI 60K + HDFC PL 60K)</div>
+          <div class="cf-muted">5 Sep 2026</div>
+          <div class="cf-inflow">+₹3,261</div>
+          <div class="cf-muted">—</div>
+          <div class="cf-balance">₹1,25,763</div>
+        </div>
+
+        <div class="cf-row action">
+          <div>Foreclose ICICI PL ₹3L</div>
+          <div class="cf-muted">5 Sep 2026</div>
+          <div class="cf-muted">—</div>
+          <div class="cf-outflow">−₹60,870</div>
+          <div class="cf-balance">₹64,893</div>
+        </div>
+
+        <div class="cf-row savings">
+          <div>September savings arrive</div>
+          <div class="cf-muted">30 Sep 2026</div>
+          <div class="cf-inflow">+₹1,00,000</div>
+          <div class="cf-muted">—</div>
+          <div class="cf-balance">₹1,64,893</div>
+        </div>
+
+        <div class="cf-row">
+          <div>Freed EMIs (3 closed loans)</div>
+          <div class="cf-muted">5 Oct 2026</div>
+          <div class="cf-inflow">+₹11,225</div>
+          <div class="cf-muted">—</div>
+          <div class="cf-balance">₹1,76,118</div>
+        </div>
+
+        <div class="cf-row savings">
+          <div>October savings arrive</div>
+          <div class="cf-muted">30 Oct 2026</div>
+          <div class="cf-inflow">+₹1,00,000</div>
+          <div class="cf-muted">—</div>
+          <div class="cf-balance">₹2,76,118</div>
+        </div>
+
+        <div class="cf-row">
+          <div>Freed EMIs (3 closed loans)</div>
+          <div class="cf-muted">5 Nov 2026</div>
+          <div class="cf-inflow">+₹11,225</div>
+          <div class="cf-muted">—</div>
+          <div class="cf-balance">₹2,87,343</div>
+        </div>
+
+        <div class="cf-row savings">
+          <div>November savings arrive</div>
+          <div class="cf-muted">30 Nov 2026</div>
+          <div class="cf-inflow">+₹1,00,000</div>
+          <div class="cf-muted">—</div>
+          <div class="cf-balance">₹3,87,343</div>
+        </div>
+
+        <div class="cf-row">
+          <div>Freed EMIs (3 closed loans)</div>
+          <div class="cf-muted">5 Dec 2026</div>
+          <div class="cf-inflow">+₹11,225</div>
+          <div class="cf-muted">—</div>
+          <div class="cf-balance">₹3,98,568</div>
+        </div>
+
+        <div class="cf-row">
+          <div>HDFC PL ₹50K closes naturally</div>
+          <div class="cf-muted">7 Dec 2026</div>
+          <div class="cf-muted">Last EMI</div>
+          <div class="cf-muted">—</div>
+          <div class="cf-balance">₹3,98,568</div>
+        </div>
+
+        <div class="cf-row savings">
+          <div>December savings arrive</div>
+          <div class="cf-muted">30 Dec 2026</div>
+          <div class="cf-inflow">+₹1,00,000</div>
+          <div class="cf-muted">—</div>
+          <div class="cf-balance">₹4,98,568</div>
+        </div>
+
+        <div class="cf-row">
+          <div>Freed EMIs (4 closed loans)</div>
+          <div class="cf-muted">5 Jan 2027</div>
+          <div class="cf-inflow">+₹12,886</div>
+          <div class="cf-muted">—</div>
+          <div class="cf-balance">₹5,11,454</div>
+        </div>
+
+        <div class="cf-row final">
+          <div>Foreclose HDFC Jumbo — DEBT FREE</div>
+          <div class="cf-muted">5 Jan 2027</div>
+          <div class="cf-muted">—</div>
+          <div class="cf-outflow">−₹4,42,784</div>
+          <div class="val-save">₹68,670 left</div>
+        </div>
+
+      </div>
+      </details>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- MONTHLY FORECLOSURE OUTFLOW TABLE -->
+    <section class="section">
+      <details class="collapsible" open>
+        <summary class="section-title">Monthly Foreclosure Outflow Summary</summary>
+        <div class="table-container purple-theme">
+        <div class="table-scroll">
+          <table style="min-width: 700px;">
+            <thead>
+              <tr>
+                <th style="text-align:left;">Month</th>
+                <th>Loan(s) to Foreclose</th>
+                <th>Foreclosure Amount</th>
+                <th>Penalty Included</th>
+                <th>Total Monthly Outflow</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="font-family: 'Poppins', sans-serif; font-weight:600;">August 2026</td>
+                <td style="text-align:left; font-family: 'Poppins', sans-serif;">
+                  <div>ICICI PL ₹60K</div>
+                  <div>HDFC PL ₹60K</div>
+                </td>
+                <td>
+                  <div>₹31,989</div>
+                  <div>₹33,636</div>
+                </td>
+                <td>
+                  <div class="val-zero">₹0</div>
+                  <div class="val-penalty">₹1,873</div>
+                </td>
+                <td class="highlight" style="font-weight:700;">₹67,498</td>
+              </tr>
+              <tr>
+                <td style="font-family: 'Poppins', sans-serif; font-weight:600;">September 2026</td>
+                <td style="text-align:left; font-family: 'Poppins', sans-serif;">ICICI PL ₹3L</td>
+                <td>₹60,870</td>
+                <td class="val-zero">₹0</td>
+                <td class="highlight" style="font-weight:700;">₹60,870</td>
+              </tr>
+              <tr>
+                <td style="font-family: 'Poppins', sans-serif; font-weight:600;">October 2026</td>
+                <td style="text-align:left; font-family: 'Poppins', sans-serif; color: var(--text-muted);">— No foreclosure —</td>
+                <td class="cf-muted">—</td>
+                <td class="cf-muted">—</td>
+                <td class="cf-muted">₹0</td>
+              </tr>
+              <tr>
+                <td style="font-family: 'Poppins', sans-serif; font-weight:600;">November 2026</td>
+                <td style="text-align:left; font-family: 'Poppins', sans-serif; color: var(--text-muted);">— No foreclosure —</td>
+                <td class="cf-muted">—</td>
+                <td class="cf-muted">—</td>
+                <td class="cf-muted">₹0</td>
+              </tr>
+              <tr>
+                <td style="font-family: 'Poppins', sans-serif; font-weight:600;">December 2026</td>
+                <td style="text-align:left; font-family: 'Poppins', sans-serif; color: var(--success);">HDFC PL ₹50K (natural closure)</td>
+                <td class="cf-muted">Last EMI</td>
+                <td class="cf-muted">—</td>
+                <td class="cf-muted">₹0</td>
+              </tr>
+              <tr>
+                <td style="font-family: 'Poppins', sans-serif; font-weight:600;">January 2027</td>
+                <td style="text-align:left; font-family: 'Poppins', sans-serif;">HDFC Jumbo Loan ₹5.95L</td>
+                <td>₹4,25,511</td>
+                <td class="val-penalty">₹17,273</td>
+                <td class="highlight" style="font-weight:700;">₹4,42,784</td>
+              </tr>
+              <tr class="tr-total">
+                <td style="font-family: 'Poppins', sans-serif;"><strong>Total Foreclosure Outflow</strong></td>
+                <td></td>
+                <td>₹5,52,006</td>
+                <td class="val-penalty">₹19,146</td>
+                <td style="color: var(--primary); font-weight:700;">₹5,71,152</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      </details>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- SUMMARY -->
+    <section class="section">
+      <div class="summary-card">
+        <h2 class="summary-title">Final Summary</h2>
+        <div class="summary-grid">
+        <div class="summary-item">
+          <div class="label">Gross Interest Avoided</div>
+          <div class="value">₹81,256</div>
+        </div>
+        <div class="summary-item">
+          <div class="label">Total Penalties Paid</div>
+          <div class="value">₹19,146</div>
+        </div>
+        <div class="summary-item">
+          <div class="label">Net Interest Saved</div>
+          <div class="value">₹62,109</div>
+        </div>
+        <div class="summary-item">
+          <div class="label">Loans Closed Early</div>
+          <div class="value">3 of 5</div>
+        </div>
+        <div class="summary-item">
+          <div class="label">Debt-Free Date</div>
+          <div class="value">5 Jan 2027</div>
+        </div>
+        <div class="summary-item">
+          <div class="label">Residual Buffer</div>
+          <div class="value">₹68,670</div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <div class="header-divider"></div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p class="disclaimer">Disclaimer: All foreclosure amounts are estimated based on the penalty rates provided. Pro-rata interest for stub days may add ₹200–₹800. Confirm exact quotes from respective banks before execution. This document is for planning purposes only and does not constitute financial advice.</p>
+      <p class="copyright">© 2026 Financial Planning : Debt Foreclosure · Generated for Robinsh Kumar</p>
+    </footer>
+
+    <div class="footer-rainbow"></div>
+
+  </div>
+</body>
+</html>
